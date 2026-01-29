@@ -1,11 +1,20 @@
 .form {
+  width: 15vw;
+  margin: 50px auto;
 }
 
 .form__fieldset {
+  display: flex;
+  flex-direction: column;
 }
 
 .form__label {
+  display: flex;
+  flex-direction: column;
 }
 
 .form__input {
+}
+
+.form__select {
 }

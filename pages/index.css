@@ -5,6 +5,8 @@
 @import url(../blocks/footer.css);
 
 .temporary {
-  width="480vw";
-  hight="50vh";
+  background-color: black;
+  width: 20vw;
+  height: 10vh;
+  margin: auto;
 }

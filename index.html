@@ -11,7 +11,9 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <div class="temporary"></div>
+      </header>
       <main class="content">
         <form action="" class="form">
           <fieldset class="form__fieldset">
@@ -34,7 +36,7 @@
             <label class="form__label">
               Model of interest:
               <select class="form__select">
-                <option value=></option>
+                <option value=""></option>
                 <option value="Hanover 255">Hanover 255</option>
                 <option value="Hanover 265">Hanover 265</option>
                 <option value="Hanover 305">Hanover 305</option>
@@ -49,7 +51,7 @@
               </select>
             </label>
             <label class="form__label">
-             Salesperson:
+              Salesperson:
               <select class="form__select">
                 <option value="Hanover 447"></option>
                 <option value="Hanover 255">Roni Meirovitz</option>
@@ -58,7 +60,14 @@
               </select>
             </label>
           </fieldset>
-          <input type="submit" id="gform_submit_button_2" class="gform_button button" onclick="gform.submission.handleButtonClick(this);" data-submission-type="submit" value="Send">
+          <input
+            type="submit"
+            id="gform_submit_button_2"
+            class="gform_button button"
+            onclick="gform.submission.handleButtonClick(this)"
+            data-submission-type="submit"
+            value="Send"
+          />
         </form>
       </main>
       <footer class="footer"></footer>
