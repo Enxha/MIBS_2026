@@ -34,9 +34,11 @@
             <label class="form__label">
               Model of interest:
               <select class="form__select">
+                <option value=></option>
                 <option value="Hanover 255">Hanover 255</option>
                 <option value="Hanover 265">Hanover 265</option>
                 <option value="Hanover 305">Hanover 305</option>
+                <option value="Hanover 447">Hanover 327</option>
                 <option value="Hanover 347">Hanover 347</option>
                 <option value="Hanover 355">Hanover 355</option>
                 <option value="Hanover 375">Hanover 375</option>
@@ -46,7 +48,17 @@
                 <option value="Hanover 447">Hanover 447</option>
               </select>
             </label>
+            <label class="form__label">
+             Salesperson:
+              <select class="form__select">
+                <option value="Hanover 447"></option>
+                <option value="Hanover 255">Roni Meirovitz</option>
+                <option value="Hanover 265">Yohanan Castillo</option>
+                <option value="Hanover 305">Naama Issachar</option>
+              </select>
+            </label>
           </fieldset>
+          <input type="submit" id="gform_submit_button_2" class="gform_button button" onclick="gform.submission.handleButtonClick(this);" data-submission-type="submit" value="Send">
         </form>
       </main>
       <footer class="footer"></footer>
