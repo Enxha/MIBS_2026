@@ -12,30 +12,58 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="temporary"></div>
+        <img
+          src="./images/hanover-color-horizontal-logo.svg"
+          alt="Hanover Logo"
+          class="header__logo"
+        />
+        <h1 class="header__title">
+          Miami International Boat Show
+          <span class="header__title-span">2026</span>
+        </h1>
       </header>
       <main class="content">
         <form action="" class="form">
           <fieldset class="form__fieldset">
             <label class="form__label">
               Name:
-              <input type="text" class="form__input" />
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                required
+              />
             </label>
             <label class="form__label">
               Phone #:
-              <input type="numbers" class="form__input" />
+              <input
+                type="numbers"
+                class="form__input"
+                placeholder="Phone Number"
+                required
+              />
             </label>
             <label class="form__label">
               Email:
-              <input type="email" class="form__input" />
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Email"
+                required
+              />
             </label>
             <label class="form__label">
               City & State
-              <input type="text" class="form__input" />
+              <input
+                type="text"
+                class="form__input"
+                placeholder="City & State"
+                required
+              />
             </label>
             <label class="form__label">
               Model of interest:
-              <select class="form__select">
+              <select class="form__select" required>
                 <option value=""></option>
                 <option value="Hanover 255">Hanover 255</option>
                 <option value="Hanover 265">Hanover 265</option>
@@ -52,7 +80,7 @@
             </label>
             <label class="form__label">
               Salesperson:
-              <select class="form__select">
+              <select class="form__select" required>
                 <option value="Hanover 447"></option>
                 <option value="Hanover 255">Roni Meirovitz</option>
                 <option value="Hanover 265">Yohanan Castillo</option>
@@ -63,14 +91,13 @@
           <input
             type="submit"
             id="gform_submit_button_2"
-            class="gform_button button"
+            class="form__button"
             onclick="gform.submission.handleButtonClick(this)"
             data-submission-type="submit"
             value="Send"
           />
         </form>
       </main>
-      <footer class="footer"></footer>
     </div>
   </body>
 </html>
