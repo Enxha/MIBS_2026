@@ -1,2 +1,2 @@
 # MIBS_2026
-Boat show boat pass
+Boat show landing page
