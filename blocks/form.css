@@ -1,16 +1,14 @@
 .form {
-  width: 15vw;
-  margin: 50px auto;
 }
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  gap: 20px;
 }
 
 .form__label {
-  display: flex;
-  flex-direction: column;
 }
 
 .form__input {
